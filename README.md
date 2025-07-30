@@ -1,0 +1,2 @@
+# Ray_Clock
+DxLibで作った時計アプリをRayLibへ変更し、Windows環境専用からクロスプラットフォーム対応へ
