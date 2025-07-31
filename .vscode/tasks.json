@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build DxLib app",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "main.cpp",
+        "-I",
+        "DxLib/include",
+        "-L",
+        "DxLib/lib",
+        "-lDxLib",
+        "-lopengl32",
+        "-lgdi32",
+        "-lwinmm",
+        "-static-libgcc",
+        "-static-libstdc++",
+        "-o",
+        "app.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
