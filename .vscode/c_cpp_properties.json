@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "windows-clang-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/12_2_0_x86_64_release_win32_seh_ucrt_rt_v10_rev2",
+        "C:/Raylib/include"
+      ],
+      "compilerPath": "C:/pg/mingw64/bin/g++.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-clang-x64",
+      "compilerArgs": [
+        ""
+      ]
+    }
+  ],
+  "version": 4
+}
